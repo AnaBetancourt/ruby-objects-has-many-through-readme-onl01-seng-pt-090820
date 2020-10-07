@@ -31,12 +31,5 @@ attr_accessor :name, :yrs_experience
     best_tipped_meal.customer
   end
   
-  def most_frequent_customer
-    customer_count = 0 
-    self.meals.each do |meal|
-      binding.pry
-      
-    end
-  end
   
 end
